@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import AllBeers from './pages/AllBeers/AllBeers'
 import RandomBeer from './pages/RandomBeer/RandomBeer'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           element={<RandomBeer />}
         />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

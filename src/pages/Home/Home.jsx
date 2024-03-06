@@ -13,7 +13,11 @@ const Home = () => {
                 src='/images/home-beer1.jpg'
                 alt='Beer Sortiment'
               />
-              <Link className='home__links'>All Beers</Link>
+              <Link
+                to='/allbeers'
+                className='home__links'>
+                All Beers
+              </Link>
             </div>
             <p>
               Welcome to our beer wonderland! Explore our vast selection of
@@ -29,7 +33,11 @@ const Home = () => {
                 src='/images/home-beer2.png'
                 alt='Random Beer'
               />
-              <Link className='home__links'>Random Beer</Link>
+              <Link
+                to='/randombeer'
+                className='home__links'>
+                Random Beer
+              </Link>
             </div>
             <p>
               Ready for a surprise? Click the 'Random Beer' button and let fate

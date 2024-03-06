@@ -1,0 +1,20 @@
+.allbeers__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.allbeers__subgrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.allbeers__image-container {
+  max-height: 200px;
+  display: flex;
+  margin-inline: auto;
+}
+
+.allbeers__content-container {
+  display: flex;
+  flex-direction: column;
+}

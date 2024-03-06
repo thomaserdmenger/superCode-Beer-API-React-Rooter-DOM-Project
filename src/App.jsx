@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import AllBeers from './pages/AllBeers/AllBeers'
 import RandomBeer from './pages/RandomBeer/RandomBeer'
+import SingleBeer from './pages/SingleBeer/SingleBeer'
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
         <Route
           path='randombeer'
           element={<RandomBeer />}
+        />
+        <Route
+          path='/singleBeer/:id'
+          element={<SingleBeer />}
         />
       </Routes>
       <Footer />

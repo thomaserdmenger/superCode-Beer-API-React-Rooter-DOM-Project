@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inter;
-  src: url(/public/fonts/Inter-VariableFont.ttf);
+  src: url(/fonts/Inter-VariableFont.ttf);
 }
 
 * {
@@ -16,4 +16,15 @@ html {
 
 img {
   max-width: 100%;
+}
+
+.wrapper {
+  padding-inline: 5%;
+  padding-block-start: 2rem;
+  min-height: 100vh;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
 }

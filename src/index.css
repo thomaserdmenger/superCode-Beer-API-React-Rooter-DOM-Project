@@ -21,7 +21,8 @@ img {
 .wrapper {
   padding-inline: 5%;
   padding-block-start: 2rem;
-  /* min-height: 100vh; */
+  max-width: 500px;
+  margin-inline: auto;
 }
 
 a {

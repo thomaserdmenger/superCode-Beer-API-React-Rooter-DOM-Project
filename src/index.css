@@ -21,7 +21,7 @@ img {
 .wrapper {
   padding-inline: 5%;
   padding-block-start: 2rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 a {

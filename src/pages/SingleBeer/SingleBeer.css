@@ -1,0 +1,46 @@
+.singlebeer__heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-block-end: 3rem;
+}
+
+.singlebeer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singlebeer__image-container {
+  height: 400px;
+  margin-block-end: 3rem;
+}
+
+.singlebeer__image {
+  height: 100%;
+}
+
+.singlebeer__content-container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 5%;
+}
+
+.singlebeer__heading_two {
+  margin-block-end: 0.2rem;
+}
+
+.singlebeer__heading-three {
+  color: #ffca42;
+  margin-block-end: 0.5rem;
+}
+
+.singlebeer__data {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 0.5rem;
+}
+
+.singlebeer__description {
+  font-weight: 600;
+  margin-block: 1rem 4rem;
+}

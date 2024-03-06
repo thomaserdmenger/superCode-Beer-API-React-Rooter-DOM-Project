@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  margin-block-end: 4rem;
 }
 
 .home__items {

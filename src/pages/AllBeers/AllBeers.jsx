@@ -18,31 +18,37 @@ const AllBeers = () => {
         <section className='allbeers'>
           <h1 className='allbeers__heading'>All Tasty Beers</h1>
           <section className='allbeers__grid'>
-            {data.map((item) => {
-              return (
-                <article
-                  className='allbeers__subgrid'
-                  key={item._id}>
-                  <div>
-                    <img
-                      className='allbeers__image-container'
-                      src={item.image_url}
-                      alt=''
-                    />
-                  </div>
-                  <div className='allbeers__content-container'>
-                    <h2 className='allbeers__heading_two'>{item.name}</h2>
-                    <h3 className='allbeers__heading-three'>{item.tagline}</h3>
-                    <p className='allbeers__created'>Created by: {item.name}</p>
-                    <Link
-                      className='allbeers__links'
-                      to={`/singleBeer/${item._id}`}>
-                      Details
-                    </Link>
-                  </div>
-                </article>
-              )
-            })}
+            {data
+              ? data.map((item) => {
+                  return (
+                    <article
+                      className='allbeers__subgrid'
+                      key={item._id}>
+                      <div>
+                        <img
+                          className='allbeers__image-container'
+                          src={item.image_url}
+                          alt=''
+                        />
+                      </div>
+                      <div className='allbeers__content-container'>
+                        <h2 className='allbeers__heading_two'>{item.name}</h2>
+                        <h3 className='allbeers__heading-three'>
+                          {item.tagline}
+                        </h3>
+                        <p className='allbeers__created'>
+                          Created by: {item.name}
+                        </p>
+                        <Link
+                          className='allbeers__links'
+                          to={`/singleBeer/${item._id}`}>
+                          Details
+                        </Link>
+                      </div>
+                    </article>
+                  )
+                })
+              : '<p>Loading...</p>'}
           </section>
         </section>
       </main>

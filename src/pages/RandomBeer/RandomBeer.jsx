@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './RandomBeer.css'
 import { useState, useEffect } from 'react'
 
@@ -36,6 +37,14 @@ const RandomBeer = () => {
                 <p>{data.attenuation_level}</p>
               </div>
               <p className='randombeer__description'>{data.description}</p>
+              <Link
+                to='/allbeers'
+                className='randombeer__link'>
+                <img
+                  src='/images/Back.png'
+                  alt=''
+                />
+              </Link>
             </div>
           </article>
         </section>

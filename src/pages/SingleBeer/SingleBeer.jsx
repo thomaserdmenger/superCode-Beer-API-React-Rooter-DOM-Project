@@ -1,6 +1,6 @@
-import { useParams } from 'react-router-dom'
 import './SingleBeer.css'
 import { useState, useEffect } from 'react'
+import { useParams, Link } from 'react-router-dom'
 
 const SingleBeer = () => {
   const [data, setData] = useState([])
@@ -50,6 +50,14 @@ const SingleBeer = () => {
                 <p className='singlebeer__description'>
                   {filteredData.description}
                 </p>
+                <Link
+                  to='/allbeers'
+                  className='singlebeer__link'>
+                  <img
+                    src='/images/Back.png'
+                    alt=''
+                  />
+                </Link>
               </div>
             </article>
           ) : (

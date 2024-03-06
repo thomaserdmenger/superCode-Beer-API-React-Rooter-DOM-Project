@@ -1,0 +1,47 @@
+.randombeer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.randombeer__heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-block-end: 4rem;
+}
+
+.randombeer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 5%;
+}
+
+.randombeer__image-container {
+  height: 400px;
+  margin-block-end: 3rem;
+}
+
+.randombeer__image {
+  height: 100%;
+}
+
+.randombeer__heading_two {
+  margin-block-end: 0.2rem;
+}
+
+.randombeer__heading-three {
+  color: #ffca42;
+  margin-block-end: 0.5rem;
+}
+
+.randombeer__data {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 0.5rem;
+}
+
+.randombeer__description {
+  font-weight: 600;
+  margin-block: 1rem 4rem;
+}

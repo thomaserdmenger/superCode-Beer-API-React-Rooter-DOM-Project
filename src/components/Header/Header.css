@@ -38,3 +38,28 @@
   font-weight: 700;
   text-decoration: underline;
 }
+
+.header__nav-all--mobile,
+.header__nav-random--mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 550px) {
+  .header nav {
+    width: 40%;
+  }
+
+  .header__nav-home {
+    display: none;
+  }
+
+  .header__nav-all,
+  .header__nav-random {
+    display: none;
+  }
+
+  .header__nav-all--mobile,
+  .header__nav-random--mobile {
+    display: inline-block;
+  }
+}

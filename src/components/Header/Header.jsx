@@ -18,9 +18,31 @@ const Header = () => {
           </Link>
         </div>
         <nav>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/allbeers'>All Beers</NavLink>
-          <NavLink to='/randombeer'>Random Beer</NavLink>
+          <NavLink
+            className='header__nav-home'
+            to='/'>
+            Home
+          </NavLink>
+          <NavLink
+            className='header__nav-all'
+            to='/allbeers'>
+            All Beers
+          </NavLink>
+          <NavLink
+            className='header__nav-all--mobile'
+            to='/allbeers'>
+            All
+          </NavLink>
+          <NavLink
+            className='header__nav-random'
+            to='/randombeer'>
+            Random Beer
+          </NavLink>
+          <NavLink
+            className='header__nav-random--mobile'
+            to='/randombeer'>
+            Random
+          </NavLink>
         </nav>
       </header>
     </div>

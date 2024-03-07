@@ -5,10 +5,12 @@ import AllBeers from './pages/AllBeers/AllBeers'
 import RandomBeer from './pages/RandomBeer/RandomBeer'
 import SingleBeer from './pages/SingleBeer/SingleBeer'
 import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route
           path='/'

@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  margin-inline: auto;
+  background-color: hsla(0, 0%, 100%, 0.7);
+  padding-block: 1rem;
+}
+
+.header svg {
+  max-width: 30px;
+}
+
+.header__logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.header__company {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header .active {
+  font-weight: 700;
+  text-decoration: underline;
+}

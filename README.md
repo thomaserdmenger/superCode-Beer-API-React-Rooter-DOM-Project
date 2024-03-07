@@ -8,7 +8,7 @@
 
 ## Built with
 
-- Mobile Design
+- Mobile First
 - Grid and Flexbox Layout
 - React
 - React Router DOM
@@ -23,4 +23,4 @@
 
 ## Screenshot-Image
 
-![](./public/images/screenshot.png)
+![](./public/images/screenshot-neu.png)

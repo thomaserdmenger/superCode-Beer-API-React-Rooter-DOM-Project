@@ -77,3 +77,17 @@
   color: white;
   background-color: black;
 }
+
+@media only screen and (max-width: 1000px) {
+  .allbeers__grid {
+    grid-template-columns: 1fr;
+    max-width: 70%;
+    margin-inline: auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .allbeers__grid {
+    max-width: 100%;
+  }
+}

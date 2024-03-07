@@ -1,13 +1,13 @@
-.singlebeer__heading {
-  text-align: center;
-  font-size: 2rem;
-  margin-block-end: 3rem;
+.singlebeer {
+  margin-block-start: 4rem;
 }
 
 .singlebeer__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 70%;
+  margin-inline: auto;
 }
 
 .singlebeer__image-container {
@@ -25,13 +25,13 @@
   padding-inline: 5%;
 }
 
-.singlebeer__heading_two {
-  margin-block-end: 0.2rem;
+.singlebeer__heading-two {
+  margin-block-end: 0.5rem;
 }
 
 .singlebeer__heading-three {
-  color: #ffca42;
-  margin-block-end: 0.5rem;
+  color: black;
+  margin-block-end: 1.5rem;
 }
 
 .singlebeer__data {
@@ -45,6 +45,7 @@
   margin-block: 1rem 2rem;
 }
 
-.singlebeer__link img {
+.singlebeer__link svg {
   margin-block-end: 4rem;
+  width: 45px;
 }

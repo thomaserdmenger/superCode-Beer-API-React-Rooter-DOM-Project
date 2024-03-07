@@ -8,10 +8,6 @@ const Home = () => {
         <section className='home'>
           <article className='home__items'>
             <div className='home__image-container home__image-container--one'>
-              {/* <img
-                src='/images/allbeers.jpg'
-                alt='Beer Sortiment'
-              /> */}
               <Link
                 to='/allbeers'
                 className='home__links'>

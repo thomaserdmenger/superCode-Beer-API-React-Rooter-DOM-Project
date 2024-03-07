@@ -6,20 +6,19 @@ const Home = () => {
     <div className='wrapper'>
       <main>
         <section className='home'>
-          <h1>Welcome to Crafty Brew Haven</h1>
           <article className='home__items'>
-            <div className='home__image-container'>
-              <img
-                src='/images/home-beer1.jpg'
+            <div className='home__image-container home__image-container--one'>
+              {/* <img
+                src='/images/allbeers.jpg'
                 alt='Beer Sortiment'
-              />
+              /> */}
               <Link
                 to='/allbeers'
                 className='home__links'>
                 All Beers
               </Link>
             </div>
-            <p>
+            <p className='home__description'>
               Welcome to our beer wonderland! Explore our vast selection of
               brews from around the globe, ranging from crisp lagers to hoppy
               IPAs and rich stouts. Whether you're a seasoned beer enthusiast or
@@ -28,18 +27,14 @@ const Home = () => {
             </p>
           </article>
           <article className='home__items'>
-            <div className='home__image-container'>
-              <img
-                src='/images/home-beer2.png'
-                alt='Random Beer'
-              />
+            <div className='home__image-container home__image-container--two'>
               <Link
                 to='/randombeer'
                 className='home__links'>
                 Random Beer
               </Link>
             </div>
-            <p>
+            <p className='home__description'>
               Ready for a surprise? Click the 'Random Beer' button and let fate
               guide you to a new beer adventure! Discover a hidden gem from our
               extensive collection with just one click. Who knows, you might

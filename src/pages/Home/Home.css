@@ -1,8 +1,8 @@
 .home {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  margin-block-end: 4rem;
+  margin-block: 2rem 4rem;
 }
 
 .home__items {
@@ -11,15 +11,33 @@
 }
 
 .home__image-container {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffca42;
   margin-block-end: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__image-container--one {
+  background: url(/images/allbeers.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.home__image-container--two {
+  background: url(/images/randombeer.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .home__links {
-  padding: 0.5rem;
+  background-color: hsla(0, 0%, 0%, 0.4);
   color: white;
-  font-weight: 600;
   font-size: 1.5rem;
+  font-weight: 600;
+  padding-block: 15rem;
+  text-align: center;
+  width: 100%;
+}
+
+.home__description {
+  font-size: 1.1rem;
+  line-height: 1.3;
 }

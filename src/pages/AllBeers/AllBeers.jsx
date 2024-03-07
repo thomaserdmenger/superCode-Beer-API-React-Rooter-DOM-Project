@@ -16,7 +16,6 @@ const AllBeers = () => {
     <div className='wrapper'>
       <main>
         <section className='allbeers'>
-          <h1 className='allbeers__heading'>All Tasty Beers</h1>
           <section className='allbeers__grid'>
             {data
               ? data.map((item) => {
@@ -24,9 +23,9 @@ const AllBeers = () => {
                     <article
                       className='allbeers__subgrid'
                       key={item._id}>
-                      <div>
+                      <div className='allbeers__image-container'>
                         <img
-                          className='allbeers__image-container'
+                          className='allbeers__image'
                           src={item.image_url}
                           alt=''
                         />

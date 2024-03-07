@@ -1,7 +1,10 @@
 footer {
-  background-color: #ffca42;
   padding: 0.4rem;
   text-align: center;
-  max-width: 500px;
-  margin-inline: auto;
+  border-block-start: 2px solid black;
+}
+
+footer svg {
+  width: 45px;
+  padding-block: 1rem;
 }

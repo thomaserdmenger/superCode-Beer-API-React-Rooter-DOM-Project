@@ -49,3 +49,9 @@
   margin-block-end: 4rem;
   width: 45px;
 }
+
+@media only screen and (max-width: 650px) {
+  .singlebeer__container {
+    max-width: 100%;
+  }
+}

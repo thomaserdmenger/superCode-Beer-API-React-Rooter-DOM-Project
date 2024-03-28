@@ -16,7 +16,7 @@
 
 ## Links
 
-- [See live site here](https://super-code-beer-api-react-rooter-dom-project.vercel.app/)
+- [See live site here](https://beer-shop-react.onrender.com)
 - [GitHub Repository](https://github.com/thomaserdmenger/superCode-Beer-API-React-Rooter-DOM-Project)
 - [GitHub Author](https://github.com/thomaserdmenger)
 - [LinkedIn Author](https://www.linkedin.com/in/thomaserdmenger/)
